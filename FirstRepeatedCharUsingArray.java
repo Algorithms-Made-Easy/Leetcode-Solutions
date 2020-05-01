@@ -1,5 +1,5 @@
 class FirstRepeatedCharUsingArray {
-    public int firstUniqChar(String s) {
+    public int firstRepeatedChar(String s) {
         int[] val=new int[26];
         for(char c:s.toCharArray()){
             val[c-'a']++;
