@@ -1,6 +1,3 @@
-import java.util.HashSet;
-import java.util.Set;
-
 public class UniqueStringUsingBitVector {
 	
 	public  boolean isUnique(String input) {
